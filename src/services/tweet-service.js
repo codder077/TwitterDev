@@ -32,5 +32,5 @@ class TweetService {
     }
 }
 
-export default TweetService;
+module.exports=  TweetService;
 

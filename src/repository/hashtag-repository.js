@@ -49,4 +49,4 @@ class HashtagRepository {
     }
 }
 
-export default HashtagRepository;
+module.exports= HashtagRepository;
