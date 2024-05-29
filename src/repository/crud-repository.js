@@ -1,4 +1,4 @@
-
+import Tweet from "../models/tweet.js";
 class CrudRepository {
     constructor(model) {
         this.model = model;
@@ -57,4 +57,4 @@ class CrudRepository {
 
 }
 
-module.exports= CrudRepository;
+export default CrudRepository;
