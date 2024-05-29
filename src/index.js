@@ -9,11 +9,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/api',apiRoutes);
+import { UserRepository, TweetRepository} from './repository/index.js';
 
-import  TweetService from './services/tweet-service.js'
+import  LikeService from './services/like-service.js'
 
 
 app.listen(3000, async () => {
     console.log('server started');
     await connect();
+
+
 });
